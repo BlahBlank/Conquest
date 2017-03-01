@@ -13,8 +13,23 @@ public class War {
 	}
 	//to be continued: supposed to deal with fight between two empires
 	public void battle() {
-		if () {
-			
+		if (defCountry==0) {
+			//Country belongs to atacking Empire
+		}
+		else if (atkCountry>defCountry){
+			defCountry=0;
+		}
+		else if (atkCuntry<defCountry){
+			atkCountry=0;
+		}
+		else{
+			//Randomize winner?
+			if (rando==1){
+				defCountry=0;
+			}
+			else{
+				atkCountry=0;
+			}
 		}
 	}
 }
