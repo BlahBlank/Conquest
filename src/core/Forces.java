@@ -29,7 +29,8 @@ public class Forces {
 			String answer = scan.nextLine();
 			scan.close();
 			if (answer.contains("y") || answer.contains("o")) {
-				
+				//If no then hey chose not to move
+				fastUnitMove(newPosX, newPosY);
 			} else {
 				System.out.println("Vous avez choisi de ne pas bouger");
 			}
@@ -46,7 +47,7 @@ public class Forces {
 		int travel = (X + Y);
 		
 		if (travel > movement) {
-			
+			//Must take out movement upgrade
 		} else {
 			tank.setPosX(newPosX);
 			tank.setPosY(newPosY);
