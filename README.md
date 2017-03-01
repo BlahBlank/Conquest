@@ -12,4 +12,6 @@ core.War.battle --> deal with fight between countries
 
 core.LevelUp.?? --> change stats formula (soldiers) when lvl up
 
+Create csv reader for countries
+
 REVOIR SyC ?????
