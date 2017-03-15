@@ -29,7 +29,12 @@ public class Forces {
 			String answer = scan.nextLine();
 			scan.close();
 			if (answer.contains("y") || answer.contains("o")) {
-				???
+				//Change if doesn't work
+				Scanner scan = new Scanner(System.in);
+				int newPosX= scan.nextLine();
+				int newPosY= scan.nextLine();
+				scan.close();
+				fastUnitMove(newPosX, newPosY);
 			} else {
 				System.out.println("Vous avez choisi de ne pas bouger");
 			}
